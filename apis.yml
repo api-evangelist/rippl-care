@@ -1,8 +1,22 @@
 aid: rippl-care
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rippl-care.png
 name: Rippl Care *
-description: 'Rippl Care * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Rippl (Rippl Care) is a specialty healthcare company delivering value-based, virtual-first
+  behavioral health and dementia care for older adults and their caregivers. Its clinical model spans
+  medication assessments, personalized care plans, counseling, community-resource navigation, and safety
+  guidance, partnering with health systems, providers, and payors. Rippl runs its patient portal on
+  athenahealth and is backed by GV (Google Ventures); it has no public developer API or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/rippl-care/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +26,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Healthcare
+- Behavioral Health
+- Dementia Care
+- Senior Care
+- Value-Based Care
+- Telehealth
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rippl-care-domain-security.yml
 - type: Website
-  url: ripplcare.com
+  url: https://www.ripplcare.com
+- type: PrivacyPolicy
+  url: https://www.ripplcare.com/privacy-policy
+- type: TermsOfService
+  url: https://www.ripplcare.com/terms-of-service
+- type: Blog
+  url: https://www.ripplcare.com/newsroom
+- type: Support
+  url: https://www.ripplcare.com/contact
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
