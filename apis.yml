@@ -23,11 +23,11 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rippl-care.png
 name: Rippl Care *
-description: 'Rippl (Rippl Care) is a specialty healthcare company delivering value-based, virtual-first
-  behavioral health and dementia care for older adults and their caregivers. Its clinical model spans
-  medication assessments, personalized care plans, counseling, community-resource navigation, and safety
-  guidance, partnering with health systems, providers, and payors. Rippl runs its patient portal on
-  athenahealth and is backed by GV (Google Ventures); it has no public developer API or developer portal.'
+description: Rippl (Rippl Care) is a specialty healthcare company delivering value-based, virtual-first behavioral
+  health and dementia care for older adults and their caregivers. Its clinical model spans medication assessments,
+  personalized care plans, counseling, community-resource navigation, and safety guidance, partnering with health
+  systems, providers, and payors. Rippl runs its patient portal on athenahealth and is backed by GV (Google Ventures);
+  it has no public developer API or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/rippl-care/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -66,6 +66,8 @@ common:
   url: https://www.ripplcare.com/newsroom
 - type: Support
   url: https://www.ripplcare.com/contact
+- type: Website
+  url: https://ripplcare.com/
 x-enrichment:
   date: '2026-07-21'
   status: minimal
